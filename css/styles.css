@@ -1,8 +1,16 @@
+:root
 
 body {
     font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
+}
+
+
+/* Reset */
+
+ul,ol {
+    list-style: none;
 }
 .page-nav {
     color: #2E2F42;
@@ -10,8 +18,13 @@ font-weight: 400;
     font-style: normal;
 
 }
-h1 {
+.hero {
     background-color: #2E2F42;
+}
+
+.hero-title {font-size: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #ffffff;
 line-height: 60px;
 }
