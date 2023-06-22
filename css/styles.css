@@ -1,13 +1,12 @@
 :root
 
-body {
+.body {
     font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.4;
-/* or 20px */
 color: #434455;
 }
 
@@ -30,7 +29,7 @@ a {
     list-style: none;
 }
 
-button {
+.button {
     font-family: inherit;
     cursor: pointer;
 }
@@ -40,7 +39,6 @@ button {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.4;
-    /* or 20px */
     color: #434455;
 }
 
@@ -59,31 +57,23 @@ button {
 
 }
 
-.page-nav .header-items {
-
-    font-weight: 500;
+.header-nav {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     }
     
-    .page-nav .header-items:active {
+.header-nav:active:hover {
         color: #404BBF;
     }
     
-    
-    .page-nav .header-items:hover {
-        border-color: #404BBF;
-        border-radius: 2px;
-        line-height: 0.5;
-    }
     
     .page-nav .link {
     color: #434455;
     }
     
-    .page-nav .link:active {
+    .page-nav .link:active:hover {
         color: #404BBF;
     }
 
@@ -102,10 +92,6 @@ button {
 .header-logo-studio {
     color: #2E2F42;
 }
-
-.header-items{}
-
-.header-list {}
 
 .hero {
     background-color: #2E2F42;
@@ -185,3 +171,29 @@ color: #2E2F42;
 
 
    /*PORTFOLIO*/
+
+.filter-btn {
+    background-color: #E7E9FC;
+    font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.04em;
+color:#4D5AE5;
+}
+.filter-btn:hover {
+    background-color: #404BBF;
+    color:#ffffff;
+}
+
+.photo-section {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.photo-section .photo-title {
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+    color: #2E2F42; 
+}
