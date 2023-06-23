@@ -26,8 +26,13 @@ a {
 }
 
 .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42;
-    font-weight: 500;
     }
 
  .text {
@@ -35,7 +40,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: inherit;
+    color: #2e2f42 ;
       }
 
 
@@ -55,14 +60,15 @@ a {
     color: #2E2F42;
 }
 
-.address {
+.address_header_list {
     font-style: normal;
 }
 .link {
     color: #434455;
+    text-decoration: none;
     }
     
-   .link:hover {
+   .link:hover:focus {
         color: #404BBF;
     }
 
@@ -107,8 +113,11 @@ line-height: 1.07;
 .hero-btn{
     background-color: #4D5AE5;
 color: #ffffff;
+font-weight: 500;
+font-size: 16px;
 letter-spacing: 0.04em;
 line-height: 1.5;
+cursor: pointer;
 }
 
  .hero-btn:hover:focus {
@@ -120,6 +129,7 @@ line-height: 1.5;
 
  .feature-title {
     font-size: 20px;
+    font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
@@ -138,17 +148,17 @@ color: #2E2F42;
    }
 
    /* OUR TEAM*/
-   .our-team.title {
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
+   .title-name {
+    font-size: 20px;
+    font-weight: 500;
+line-height: 1.2;
 letter-spacing: 0.02em;
-text-transform: capitalize;
-
 color: #2E2F42;
    }
-   .team-list {}
+
+   .team {
+    background-color: #FFFFFF
+   }
 
    /*FOOTER*/
    .footer {
@@ -165,21 +175,35 @@ color: #2E2F42;
 
 
    /*PORTFOLIO*/
+.portfolio {
+    color: #404bbf;
+}
 
-.filter-btn {
-    background-color: #E7E9FC;
-line-height: 24px;
+
+
+.portfolio-filter-btn {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+background-color:#F4F4FD;
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.04em;
-color:#4D5AE5;
+color: #4d5ae5;
 cursor: pointer;
 }
 
-.filter-btn:hover {
+.portfolio-filter-btn:hover {
     background-color: #404BBF;
     color:#ffffff;
     cursor: pointer;
     
+}
+
+.filter-btn:focus {
+    background-color: #404BBF;
+    color:#ffffff;
+    cursor: pointer; 
 }
  .portfolio-page {
     list-style: none
