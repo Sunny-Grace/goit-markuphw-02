@@ -1,5 +1,9 @@
-:root {
-
+:root { 
+    /*Fonts*/
+    --primary-font:  'Roboto', sans-serif;
+    /*Other*/
+    --accent-color: #E7E9FC;
+    
 }
 
 .body {
