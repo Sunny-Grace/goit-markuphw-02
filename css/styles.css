@@ -245,7 +245,9 @@ color:  #434455;
     color: #404bbf;
 }
 
-
+.portfolio-nav {
+    color: #2e2f42;
+}
 
 .portfolio-btn {
 font-family: "Roboto", sans-serif;
