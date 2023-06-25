@@ -13,7 +13,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.4;
 background-color: #ffffff;
-color: #2e2f42;
+color:  #434455;
 }
 
 
@@ -61,6 +61,9 @@ a {
     
 }
 
+.page-nav {
+    color:  #2e2f42;
+}
 .address_header_list {
     font-style: normal;
 }
@@ -202,6 +205,14 @@ color: #2E2F42;
 
 .portfolio-header {
     color: #2e2f42;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+background-color: #ffffff;
+color:  #434455;
+
 }  
 
 .portfolip-header:hover {
@@ -209,6 +220,14 @@ color: #2E2F42;
 }
 .portfolip-header:focus {
     color: #404bbf;
+}
+
+.portfolio-header-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-weight: 500;
 }
 
 .portfolio-page {
@@ -246,9 +265,13 @@ cursor: pointer;
  }
 
 .photo-title {
-    font-weight: 400;
+    font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
     color: #2E2F42; 
+}
+
+.descript {
+    color: #434455;
 }
