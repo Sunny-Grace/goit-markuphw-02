@@ -17,11 +17,6 @@ color: #434455;
 
 /* Reset */
 
-a {
-    color: currentColor;
-    text-decoration: none ;
-    font-style: normal;
-}
 
 .title {
     font-weight: 700;
@@ -39,11 +34,7 @@ a {
       }
 
 
-.list {
-    list-style: none;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 
 .button {
     font-family: inherit;
@@ -67,8 +58,14 @@ a {
  }
  .address {
     font-style: normal;
-    color: #2e2f42;
-    font-weight: 500;
+    color: #434455;
+    font-weight: 400;
+}
+
+.list {
+    list-style: none;
+    letter-spacing: 0.02em;
+    
 }
 
 .header-logo {
