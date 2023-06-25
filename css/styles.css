@@ -247,14 +247,14 @@ color: #4d5ae5;
 cursor: pointer;
 }
 
-.portfolio-filter-btn:hover {
+.portfolio-btn:hover {
     background-color: #404BBF;
     color:#ffffff;
     cursor: pointer;
     
 }
 
-.filter-btn:focus {
+.portfolio-btn:focus {
     background-color: #404BBF;
     color:#ffffff;
     cursor: pointer; 
