@@ -47,13 +47,10 @@ a {
     cursor: pointer;
 }
 
-.page-nav {
-    cursor: pointer;
-}
-
 .link {
     text-decoration: none;
     color: #2e2f42;
+    cursor: pointer;
     }
     
  .link:hover,:focus {
@@ -160,45 +157,19 @@ color: #2E2F42;
 
 
    /*PORTFOLIO*/
-
-.portfolio-header {
-    color: #2e2f42;
-    font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-background-color: #ffffff;
-color:  #434455;
-
-}  
-
-.portfolip-header:hover {
-    color: #404bbf;
-}
-.portfolip-header:focus {
-    color: #404bbf;
-}
-
-
-
-
+ 
 
 .portfolio-btn {
-font-family: "Roboto", sans-serif;
 font-weight: 500;
-font-size: 16px;
 background-color:#F4F4FD;
-line-height: 1.5;
 text-align: center;
 letter-spacing: 0.04em;
-color: #4d5ae5;
+color: #4D5AE5
 }
 
 .portfolio-btn:hover,:focus {
     background-color: #404BBF;
-    color: FFFFFF;
+    color: #FFFFFF;
 }
 
 
