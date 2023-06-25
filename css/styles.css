@@ -70,7 +70,6 @@ a {
     color: #434455;
 }
 .link {
-    color: #2e2f42;
     text-decoration: none;
     }
     
@@ -233,7 +232,7 @@ color:  #434455;
     color: #404bbf;
 }
 
-.portfolio-header-list {
+.address-header-list {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
