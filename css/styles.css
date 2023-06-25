@@ -54,7 +54,6 @@ a {
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: #2e2f42;
     cursor: pointer;
     }
     
@@ -65,7 +64,7 @@ a {
 
  .address {
     font-style: normal;
-    color: #2E2F42;
+    color: #2e2f42;
     font-weight: 500;
 }
 
